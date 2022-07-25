@@ -9,36 +9,46 @@ from .view_helpers.gen_file_helper import gen_file_helper
 from .view_helpers.embed_helper import embed_helper
 from .view_helpers.download_helper import download_helper
 from .view_helpers.share_helper import share_helper
-from .view_helpers.export_helper import export_helper
+from .view_helpers.export_helperer import export_helper
 
 # Create your views here.
 
 def landing (request):
+    # Locate and put your logic in the view_helper directory of this app
     return landing_helper(request)
 
 def signin (request):
+    # Locate and put your logic in the view_helper directory of this app
     return signin_helper(request)
 
 def signup (request):
+    # Locate and put your logic in the view_helper directory of this app
     return signup_helper(request)
 
 def logut (request):
+    # Locate and put your logic in the view_helper directory of this app
     return signup_helper(request)
 
 def gen_form (request):
+    # Locate and put your logic in the view_helper directory of this app
     return gen_form_helper(request)
 
 def gen_file (request):
+    # Locate and put your logic in the view_helper directory of this app
     return gen_file_helper(request)
 
 def embed (request):
+    # Locate and put your logic in the view_helper directory of this app
     return embed_helper(request)
 
 def download (request):
+    # Locate and put your logic in the view_helper directory of this app
     return download_helper(request)
 
 def share (request):
+    # Locate and put your logic in the view_helper directory of this app
     return share_helper(request)
 
 def export (request):
+    # Locate and put your logic in the view_helper directory of this app
     return export_helper(request)
