@@ -3,6 +3,7 @@
 # How to use
 
 <hr>
+
   - Create a virtual environment on your system
   - activate it
   - pip install django
