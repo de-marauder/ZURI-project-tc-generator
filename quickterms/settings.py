@@ -27,6 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# ! PLEASE READ THIS
+# !
+# ! If you must edit this file, inform de-marauder
+# !
+# !
 
 # Application definition
 
@@ -37,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'tc_site'
 ]
 
 MIDDLEWARE = [
