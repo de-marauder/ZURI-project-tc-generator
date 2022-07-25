@@ -9,7 +9,7 @@ from .view_helpers.gen_file_helper import gen_file_helper
 from .view_helpers.embed_helper import embed_helper
 from .view_helpers.download_helper import download_helper
 from .view_helpers.share_helper import share_helper
-from .view_helpers.export_helperer import export_helper
+from .view_helpers.export_helper import export_helper
 
 # Create your views here.
 
