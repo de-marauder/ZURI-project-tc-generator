@@ -25,7 +25,7 @@ def signup (request):
     # Locate and put your logic in the view_helper directory of this app
     return signup_helper(request)
 
-def logut (request):
+def logout (request):
     # Locate and put your logic in the view_helper directory of this app
     return signup_helper(request)
 
